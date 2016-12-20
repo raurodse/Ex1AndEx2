@@ -9,5 +9,5 @@ celery2 -A ejercicio2 worker -l info
 ```
 El comando de django es :
 ```shell
-celery --dest RUTA_DEL_FICHERO
+./manage.py celery --dest RUTA_DEL_FICHERO
 ```
