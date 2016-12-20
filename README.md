@@ -7,3 +7,7 @@ El ejercicio se ha realizado en un Arch Linux de 64 Bits, con una instalacion de
 ```shell
 celery2 -A ejercicio2 worker -l info
 ```
+El comando de django es :
+```shell
+celery --dest RUTA_DEL_FICHERO
+```
